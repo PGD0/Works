@@ -1,0 +1,68 @@
+/*
+let arreglo = [1,3,4,2,7,0]
+
+for (let i = 0; i < arreglo.length-1; i++) {
+    for (let j = 0; j < arreglo.length; j++) {
+        if (arreglo[i] + arreglo[j]==10) {
+            alert(arreglo[i] + ' ' + arreglo[j])
+        }
+    }
+}
+*/
+
+/*
+let myArray = [1,8,8,5,4,6,7,2,2,8]
+let numero;
+let cont=1;
+let numaux;
+let contaux=1;
+
+for(let i = 0; i < myArray.length; i++){
+    contaux = 0;
+    for (let j = 0; j < myArray.length; j++) {
+        if (myArray[i] === myArray[j]) {
+            contaux++;
+        }
+        if (contaux>cont) {
+            numero=myArray[i]
+            cont=contaux;
+        }
+    }
+}
+
+console.log(numero);
+console.log(cont);
+*/
+/*
+let myArray=[1,2,1,3,3,1,2,1,5,1]
+let uno="1: ", dos="2: ", tres="3: ", cuatro="4: ", cinco="5: ";
+let booleano = true;
+for (let i = 0; i < myArray.length; i++){
+    if (myArray < 1 || myArray > 5) {
+        booleano = false;
+        break;
+    }
+    switch (myArray[i]) {
+        case 1:
+        uno += "*";
+        break;
+        case 2:
+        dos += "*";
+        break;
+        case 3:
+        tres += "*";
+        break;
+        case 4:
+        cuatro += "*";
+        break;
+        case 5:
+        cinco += "*";
+        break;
+    }
+}
+console.log(uno);
+console.log(dos);
+console.log(tres);
+console.log(cuatro);
+console.log(cinco);
+*/
